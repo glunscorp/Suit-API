@@ -1,0 +1,27 @@
+{
+  "name": "suit-api",
+  "version": "1.0.0",
+  "description": "Built with Node.js Express",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start:server": "nodemon app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/glunscorp/Suit-API.git"
+  },
+  "author": "Gluns",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/glunscorp/Suit-API/issues"
+  },
+  "homepage": "https://github.com/glunscorp/Suit-API#readme",
+  "dependencies": {
+    "body-parser": "^1.19.1",
+    "express": "^4.17.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.15"
+  }
+}
